@@ -1,23 +1,33 @@
-Twitter Scraping with Selenium and Chrome WebDriver
-This script scrapes tweets from a user's timeline using Python, Selenium, and the Chrome WebDriver with a Samsung refrigerator user agent. It then stores the tweets in a dictionary with keys in the format author-month-day-year and saves the dictionary as a JSON file. This is just to demonstrate how stupid locking down an API only is.
+# Twitter Scraping with Selenium and Chrome WebDriver
 
-Prerequisites
-Python 3.x installed on your system.
-Google Chrome browser installed on your system.
-Installation
-Install Selenium:
+This script scrapes tweets from a user's timeline using Python, Selenium, and the Chrome WebDriver with a Samsung refrigerator user agent. It then stores the tweets in a dictionary with keys in the format `author-month-day-year` and saves the dictionary as a JSON file.
 
-Copy code
+**Warning**: Web scraping may violate Twitter's terms of service. For a more reliable and efficient way to access Twitter data, consider using the Tweepy library and the Twitter API.
+
+## Prerequisites
+
+1. Python 3.x installed on your system.
+2. Google Chrome browser installed on your system.
+
+## Installation
+
+1. Install Selenium:
+
+
 pip install selenium
-Download the Chrome WebDriver from here and add it to your system's PATH.
 
-Usage
-Replace the username variable in the script with the desired user's Twitter handle.
 
-Adjust the number of scrolls in the script to load more tweets.
+2. Download the Chrome WebDriver from [here](https://sites.google.com/a/chromium.org/chromedriver/downloads) and add it to your system's PATH.
 
-Run the script:
+## Usage
 
-Copy code
+1. Replace the `username` variable in the script with the desired user's Twitter handle.
+
+2. Adjust the number of `scrolls` in the script to load more tweets.
+
+3. Run the script:
+
 python twitter_scraper.py
-The script will save the tweets in a JSON file named {username}_tweets.json in the same directory as the script.
+
+
+4. The script will save the tweets in a JSON file named `{username}_tweets.json` in the same directory as the script.
