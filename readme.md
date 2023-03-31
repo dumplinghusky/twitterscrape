@@ -1,6 +1,6 @@
 # Twitter Scraping with Selenium and Chrome WebDriver
 
-This script scrapes tweets from a user's timeline using Python, Selenium, and the Chrome WebDriver with a Samsung refrigerator user agent. It then stores the tweets in a dictionary with keys in the format `author-month-day-year` and saves the dictionary as a JSON file.
+This script scrapes tweets from a user's timeline using Python, Selenium, and the Chrome WebDriver using a Samsung refrigerator user agent. It then stores the tweets in a dictionary with keys in the format `author-month-day-year` and saves the dictionary as a JSON file.
 
 This was created as a demonstration to show how stupid API restrictions are for reading tweets.
 
